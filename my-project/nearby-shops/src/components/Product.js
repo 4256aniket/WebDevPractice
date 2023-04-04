@@ -1,4 +1,5 @@
 import React from "react";
+import "./product.css";
 
 function Product() {
   return (
@@ -11,11 +12,10 @@ function Product() {
         </p>
         <div className="product__rating">
           <p>⭐️</p>
-          <p>⭐️</p>
-          <p>⭐️</p>
         </div>
-        <img src="./images/pentonic.png" alt="" />
       </div>
+      <img src="./images/pentonic.png" alt="" />
+      <button className="product__button">Add to Basket</button>
     </div>
   );
 }
